@@ -6,9 +6,9 @@ function solvetactic() {
   };
   fetch(urls.next, {
     method: 'GET',
-    headers: {
-      phpsessid: 'd53827cb2fc6a9a9d9ee6fb16baed647',
-    },
+    // headers: {
+    //   phpsessid: 'd53827cb2fc6a9a9d9ee6fb16baed647',
+    // },
   })
     .then(function (res) {
       return res.json();
